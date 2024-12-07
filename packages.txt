@@ -18,6 +18,7 @@ git
 grim
 grub
 gst-plugin-pipewire
+gwenview
 htop
 hyprland
 hyprpaper
@@ -50,15 +51,19 @@ qt5-wayland
 slurp
 smartmontools
 snapd
+timeshift
 unzip
 vim
+waybar
 wget
 wireless_tools
 wireplumber
+wlr-randr
 wofi
 xdg-desktop-portal-hyprland
 xdg-utils
 xorg-xinit
+xorg-xrandr
 yay
 yay-debug
 zen-browser-avx2-bin

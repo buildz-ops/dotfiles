@@ -77,3 +77,7 @@ end
 function lsadv
     eza -alh --icons=always --color=always
 end
+
+function pipes
+    pipes.sh
+end
