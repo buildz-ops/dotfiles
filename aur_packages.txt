@@ -1,0 +1,10 @@
+bluetui
+bluetui-debug
+catnap-git
+catnap-git-debug
+rofi-lbonn-wayland-git
+rofi-lbonn-wayland-git-debug
+snapd
+yay
+yay-debug
+zen-browser-avx2-bin

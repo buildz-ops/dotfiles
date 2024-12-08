@@ -1,6 +1,0 @@
-catnap-git
-catnap-git-debug
-snapd
-yay
-yay-debug
-zen-browser-avx2-bin
