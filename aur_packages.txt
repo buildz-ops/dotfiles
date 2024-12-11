@@ -2,9 +2,14 @@ bluetui
 bluetui-debug
 catnap-git
 catnap-git-debug
+qt6ct-kde
+qt6ct-kde-debug
 rofi-lbonn-wayland-git
 rofi-lbonn-wayland-git-debug
 snapd
+spicetify-cli
+spicetify-cli-debug
+spotify
 yay
 yay-debug
 zen-browser-avx2-bin

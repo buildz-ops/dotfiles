@@ -1,0 +1,15 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+alt+p",
+        "command": "jupyter.debugFileInteractive"
+    },
+    {
+        "key": "ctrl+alt+t",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },
+    {
+        "key": "alt+meta+r",
+        "command": "workbench.action.reopenWithEditor"
+    }
+]

@@ -9,7 +9,7 @@ if status is-interactive
     catnap
 
     # Configure Oh My Posh prompt with the 1_shell theme
-    oh-my-posh init fish --config /home/ayoub/.cache/oh-my-posh/themes/bubblesextra.omp.json | source
+    oh-my-posh init fish --config /home/ayoub/.cache/oh-my-posh/themes/nordcustom.omp.json | source
 end
 
     # Zoxide
@@ -81,3 +81,5 @@ end
 function pipes
     pipes.sh
 end
+
+fish_add_path /home/ayoub/.spicetify
