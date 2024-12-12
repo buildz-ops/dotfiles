@@ -2,6 +2,8 @@ bluetui
 bluetui-debug
 catnap-git
 catnap-git-debug
+cava
+cava-debug
 qt6ct-kde
 qt6ct-kde-debug
 rofi-lbonn-wayland-git

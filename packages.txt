@@ -69,6 +69,8 @@ cantarell-fonts 1:0.303.1-2
 capstone 5.0.3-1
 catnap-git r424.268e207-1
 catnap-git-debug r424.268e207-1
+cava 0.10.3-2
+cava-debug 0.10.3-2
 cblas 3.12.0-5
 cdparanoia 10.2-9
 cfitsio 1:4.5.0-1
