@@ -5,11 +5,11 @@ if status is-interactive
         # Suppress the default Fish greeting
     end
 
-    # Display system information with Catnap on terminal startup
-    catnap
+    # Display system information with fetch tool on terminal startup, neofetch,fastfetch,catnap, etc
+    fastfetch
 
     # Configure Oh My Posh prompt with the 1_shell theme
-    oh-my-posh init fish --config /home/ayoub/.cache/oh-my-posh/themes/nordcustom.omp.json | source
+    oh-my-posh init fish --config /home/ayoub/.cache/oh-my-posh/themes/catppuccin_frappe.omp.json | source
 end
 
     # Zoxide
@@ -67,7 +67,7 @@ function gp
 end
 
 function matrix
-    unimatrix -c blue
+    unimatrix -c blue -n -l 'o'
 end
 
 function ls
@@ -79,7 +79,7 @@ function lsadv
 end
 
 function pipes
-    pipes.sh
+    pipes.sh -f 100 -c 4
 end
 
 fish_add_path /home/ayoub/.spicetify

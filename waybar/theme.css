@@ -7,7 +7,7 @@
 /* Main Colors */
 
 @define-color main-fg         #cdd6f4;
-@define-color main-bg         rgba(0, 0, 0, 0);
+@define-color main-bg         rgba(46, 52, 64, 0.5);
 @define-color main-br         #cdd6f4;
 
 @define-color active-bg       #9399b2;

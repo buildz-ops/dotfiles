@@ -1,0 +1,20 @@
+2024-12-17 00:08:58.374 [info] Extension host with pid 226706 started
+2024-12-17 00:08:58.375 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-12-17 00:08:58.392 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-12-17 00:08:58.623 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-12-17 00:08:58.628 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-12-17 00:08:58.661 [info] Eager extensions activated
+2024-12-17 00:08:58.679 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-17 00:08:58.681 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-17 00:08:58.700 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-12-17 00:08:58.763 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: false, activationEvent: 'onStartupFinished'
+2024-12-17 00:08:58.768 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-12-17 00:09:08.024 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-12-17 00:09:08.088 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2024-12-17 00:09:08.090 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-12-17 00:09:08.094 [info] ExtensionService#_doActivateExtension s-nlf-fh.glassit, startup: false, activationEvent: '*'
+2024-12-17 00:09:08.183 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-17 00:09:08.191 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-17 00:09:08.231 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-17 00:19:01.535 [info] Extension host terminating: renderer closed the MessagePort
+2024-12-17 00:19:01.543 [info] Extension host with pid 226706 exiting with code 0

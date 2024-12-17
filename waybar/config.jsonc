@@ -221,7 +221,7 @@
   },
 
   "idle_inhibitor": {
-    "format": " ",
+    "format": "",
     "tooltip": true,
     "tooltip-format-activated": "Presentation Mode",
     "tooltip-format-deactivated": "Idle Mode",

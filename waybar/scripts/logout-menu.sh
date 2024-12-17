@@ -2,7 +2,7 @@
 
 config="$HOME/.config/rofi/logout-menu.rasi"
 
-actions=$(echo -e "   Lock\n   Shutdown\n   Reboot\n $(printf '\u200A')  Suspend\n   Hibernate\n   Logout")
+actions=$(echo -e "   Lock\n   Shutdown\n   Reboot\n $(printf '\u200A')  Logout")
 
 # Display logout menu
 selected_option=$(echo -e "$actions" | rofi -dmenu -i -config "${config}")
@@ -17,12 +17,6 @@ case "$selected_option" in
   ;;
 *Reboot)
   systemctl reboot
-  ;;
-*Suspend)
-  systemctl suspend
-  ;;
-*Hibernate)
-  systemctl hibernate
   ;;
 *Logout)
   hyprctl dispatch exit 0

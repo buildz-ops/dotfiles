@@ -188,16 +188,12 @@ tooltip label {
   color: @distro-bg;
   background: @main-bg;
   text-shadow: -2px 0 2px rgba(0, 0, 0, 0.6);
-  padding-left: 3px;
 }
 #idle_inhibitor {
   color: @distro-fg;
   background: @distro-bg;
-  font-size: 11pt;
-  margin-right: -1px;
+  font-size: 22pt;
   margin-bottom: -2px;
-  padding-right: 0;
-  padding-left: 3px;
   text-shadow: 0 0 1.5px rgba(0, 0, 0, 1);
 }
 #custom-right2 {

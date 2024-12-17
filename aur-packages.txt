@@ -1,0 +1,14 @@
+btrfs-assistant
+catnap-git
+cava
+lutgen-bin
+nordic-darker-theme
+oh-my-posh
+pipes.sh
+qt6ct-kde
+spicetify-cli
+timeshift-autosnap
+unimatrix-git
+wlogout
+yay
+yay-debug

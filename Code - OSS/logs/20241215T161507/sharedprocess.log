@@ -1,0 +1,14 @@
+2024-12-15 16:18:06.091 [info] Getting Manifest... ericsia.pythonsnippets3
+2024-12-15 16:18:06.813 [info] Installing extension: ericsia.pythonsnippets3 {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ayoub/.vscode-oss/extensions/extensions.json","path":"/home/ayoub/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.95.1","date":"2024-11-01T17:20:55.708Z"}}
+2024-12-15 16:18:07.333 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2024-12-15 16:18:07.333 [info] Extension signature verification is not done: ericsia.pythonsnippets3
+2024-12-15 16:18:07.353 [info] Extracted extension to file:///home/ayoub/.vscode-oss/extensions/ericsia.pythonsnippets3-3.3.18-universal: ericsia.pythonsnippets3
+2024-12-15 16:18:07.359 [info] Renamed to /home/ayoub/.vscode-oss/extensions/ericsia.pythonsnippets3-3.3.18-universal
+2024-12-15 16:18:07.386 [info] Extension installed successfully: ericsia.pythonsnippets3 vscode-userdata:/home/ayoub/.vscode-oss/extensions/extensions.json
+2024-12-15 16:18:07.441 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ayoub/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ayoub/.vscode-oss/extensions/extensions.json.vsctmp'
+    at hm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)

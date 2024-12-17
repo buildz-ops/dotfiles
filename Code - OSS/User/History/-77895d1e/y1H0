@@ -1,0 +1,17 @@
+Ayoub Ammar Chaibi 1º ASIX 17/12/2024 INF-A22-19
+
+1. Lista todos los datos de los clientes de Denver y de Los Ángeles
+
+
+
+2. Lista los vendedores con cuotas iguales o superiores al objetivo de la oficina que tiene las ventas más bajas
+
+
+
+3. Dada la siguiente consulta:
+    select empresa
+    from clientes
+    where exists (select *
+                          from pedidos
+                          where rep=num_empl
+                          and importe>cuota*10/100))

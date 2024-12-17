@@ -1,0 +1,64 @@
+2024-12-15 16:15:08.829 [info] Extension host with pid 30512 started
+2024-12-15 16:15:08.847 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-12-15 16:15:08.851 [info] ExtensionService#_doActivateExtension s-nlf-fh.glassit, startup: true, activationEvent: '*'
+2024-12-15 16:15:08.936 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-12-15 16:15:08.984 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-12-15 16:15:09.024 [info] Eager extensions activated
+2024-12-15 16:15:09.043 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-15 16:15:09.044 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-15 16:15:09.058 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2024-12-15 16:15:09.059 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-12-15 16:15:09.111 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-12-15 16:15:09.122 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-12-15 16:15:09.125 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-15 16:15:09.136 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-15 16:15:09.178 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-15 16:15:09.214 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-12-15 16:15:11.370 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-12-15 16:15:11.378 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-12-15 16:15:53.274 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-12-15 16:15:54.823 [error] [ecmel.vscode-html-css] provider FAILED
+2024-12-15 16:15:54.823 [error] undefined
+2024-12-15 16:15:58.150 [error] [ecmel.vscode-html-css] provider FAILED
+2024-12-15 16:15:58.150 [error] undefined
+2024-12-15 16:16:01.374 [error] [ecmel.vscode-html-css] provider FAILED
+2024-12-15 16:16:01.374 [error] undefined
+2024-12-15 16:16:04.085 [error] [ecmel.vscode-html-css] provider FAILED
+2024-12-15 16:16:04.085 [error] undefined
+2024-12-15 16:16:05.512 [error] [ecmel.vscode-html-css] provider FAILED
+2024-12-15 16:16:05.512 [error] undefined
+2024-12-15 16:16:09.478 [error] [ecmel.vscode-html-css] provider FAILED
+2024-12-15 16:16:09.478 [error] undefined
+2024-12-15 16:16:09.574 [error] [ecmel.vscode-html-css] provider FAILED
+2024-12-15 16:16:09.574 [error] undefined
+2024-12-15 16:16:09.691 [error] [ecmel.vscode-html-css] provider FAILED
+2024-12-15 16:16:09.691 [error] undefined
+2024-12-15 16:16:09.752 [error] [ecmel.vscode-html-css] provider FAILED
+2024-12-15 16:16:09.752 [error] undefined
+2024-12-15 16:16:28.174 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-12-15 16:16:28.383 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-12-15 16:16:28.427 [error] Activating extension ms-python.debugpy failed due to an error:
+2024-12-15 16:16:28.427 [error] Error: Extension 'ms-python.debugpy' CANNOT use API proposal: portsAttributes.
+Its package.json#enabledApiProposals-property declares:  but NOT portsAttributes.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.debugpy
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:16578)
+	at Object.registerPortAttributesProvider (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:55601)
+	at t.registerDebugger (/home/ayoub/.vscode-oss/extensions/ms-python.debugpy-2024.14.0-linux-x64/dist/extension.js:2:846294)
+	at e.activate (/home/ayoub/.vscode-oss/extensions/ms-python.debugpy-2024.14.0-linux-x64/dist/extension.js:2:1095248)
+	at pw.kb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:15214)
+	at pw.jb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:14921)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:13079
+	at async B0.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:4447)
+	at async B0.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:4410)
+	at async B0.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:3866)
+2024-12-15 16:16:29.564 [error] Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:16578)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:39418)
+	at C.activate (/home/ayoub/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:932646)
+	at /home/ayoub/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/ayoub/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:2447)
+2024-12-15 16:19:13.088 [info] Extension host terminating: renderer closed the MessagePort
+2024-12-15 16:19:13.101 [info] Extension host with pid 30512 exiting with code 0

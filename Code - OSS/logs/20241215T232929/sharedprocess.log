@@ -1,0 +1,14 @@
+2024-12-15 23:30:50.286 [info] Getting Manifest... naumovs.color-highlight
+2024-12-15 23:30:50.979 [info] Installing extension: naumovs.color-highlight {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ayoub/.vscode-oss/extensions/extensions.json","path":"/home/ayoub/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.95.1","date":"2024-11-01T17:20:55.708Z"}}
+2024-12-15 23:30:51.621 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2024-12-15 23:30:51.621 [info] Extension signature verification is not done: naumovs.color-highlight
+2024-12-15 23:30:51.746 [info] Extracted extension to file:///home/ayoub/.vscode-oss/extensions/naumovs.color-highlight-2.8.0-universal: naumovs.color-highlight
+2024-12-15 23:30:51.753 [info] Renamed to /home/ayoub/.vscode-oss/extensions/naumovs.color-highlight-2.8.0-universal
+2024-12-15 23:30:51.766 [info] Extension installed successfully: naumovs.color-highlight vscode-userdata:/home/ayoub/.vscode-oss/extensions/extensions.json
+2024-12-15 23:30:51.803 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ayoub/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ayoub/.vscode-oss/extensions/extensions.json.vsctmp'
+    at hm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)
