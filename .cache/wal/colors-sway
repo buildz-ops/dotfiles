@@ -1,0 +1,21 @@
+set $wallpaper /home/ayoub/Pictures/wallpapers/ign-0001.png
+
+set $background #12171f
+set $foreground #dfe4ea
+
+set $color0 #12171f
+set $color1 #6E91AF
+set $color2 #7496AC
+set $color3 #7CA8C2
+set $color4 #8DA2B4
+set $color5 #9AB5C7
+set $color6 #B4C7D5
+set $color7 #dfe4ea
+set $color8 #9c9fa3
+set $color9 #6E91AF
+set $color10 #7496AC
+set $color11 #7CA8C2
+set $color12 #8DA2B4
+set $color13 #9AB5C7
+set $color14 #B4C7D5
+set $color15 #dfe4ea

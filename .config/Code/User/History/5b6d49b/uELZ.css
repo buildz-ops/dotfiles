@@ -1,0 +1,116 @@
+@import url("file://~/.cache/wal/colors-waybar.css");
+
+* {
+  font-family: "JetBrainsMono Nerd Font Bold";
+  font-weight: bold;
+  font-size: 12px;
+  min-height: 0;
+}
+
+@import "theme.css";
+
+/* === Main Background === */
+window#waybar {
+  background: var(--wal-0);
+}
+
+/* === Drop Shadow === */
+window#waybar > box {
+  background-color: transparent;
+  box-shadow: 0 0 2px 1px var(--wal-3);
+  margin: 2px;
+}
+
+/* === Tooltip === */
+tooltip {
+  background: var(--wal-0);
+  border: solid;
+  border-width: 1.5px;
+  border-radius: 8px;
+  border-color: var(--wal-4);
+}
+tooltip label {
+  color: var(--wal-7);
+  font-weight: normal;
+  margin: 0.25px;
+}
+
+/* === Workspace Buttons === */
+#workspaces button {
+  color: var(--wal-6);
+  border-radius: 8px;
+  box-shadow: none;
+  margin: 2px 0;
+  padding: 0 2px;
+  transition: none;
+}
+#workspaces button:hover {
+  color: var(--wal-7);
+  background: var(--wal-3);
+  text-shadow: none;
+  box-shadow: none;
+}
+#workspaces button.active {
+  color: var(--wal-7);
+  background: var(--wal-4);
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.4);
+  margin: 2px;
+  padding: 0 6px;
+}
+
+/* === General === */
+#custom-ws,
+#workspaces,
+#window,
+#custom-cpuinfo,
+#memory,
+#custom-cpu,
+#clock,
+#custom-wifi,
+#bluetooth,
+#custom-update,
+#custom-media,
+#pulseaudio,
+#custom-backlight,
+#battery,
+#custom-power {
+  opacity: 1;
+  color: var(--wal-6);
+  margin-bottom: 0;
+  padding: 0 4px;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+#custom-left1,
+#custom-left2,
+#custom-left3,
+#custom-left4,
+#custom-left5,
+#custom-left6,
+#custom-left7,
+#custom-left8 {
+  font-size: 11pt;
+  text-shadow: -2px 0 2px rgba(0, 0, 0, 0.5);
+}
+
+#custom-right1,
+#custom-right2,
+#custom-right3,
+#custom-right4,
+#custom-right5 {
+  font-size: 11pt;
+  padding-right: 3px;
+  text-shadow: 2px 0 2px rgba(0, 0, 0, 0.5);
+}
+
+/* === Modules === */
+
+/* == Window Icon == */
+#custom-ws {
+  background: var(--wal-0);
+}
+
+/* == Workspaces == */
+#custom-left1 {
+  colo

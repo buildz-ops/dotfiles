@@ -1,0 +1,66 @@
+{
+  "layer": "bottom",
+  "position": "top",
+  "spacing": 8,
+  "modules-left": [
+    "custom/distro",
+    "hyprland/workspaces",
+    "cpu",
+    "memory",
+    "disk",
+    "temperature",
+  ],
+  "modules-center": [
+    "clock",
+    "clock#time"
+  ],
+  "modules-right": [
+    "network",
+    "pulseaudio",
+  ],
+  "reload_style_on_change": true,
+  "custom/distro": {
+    "format": "󰣇",
+    "tooltip": false
+  },
+  "hyprland/workspaces": {
+    "format": "{name}",
+    "all-outputs": true,
+    "persistent-workspaces": {
+      "*": 5, 
+    },
+  },
+  "cpu": {
+    "format": "   {usage}%",
+    "interval": 1
+  },
+  "memory": {
+    "format": "󰀻  {percentage}%",
+    "interval": 1
+  },
+  "disk": {
+    "format": "   {percentage_used}%"
+  },
+  "temperature": {
+    "format": "  {temperatureC}°C"
+  },
+  "clock": {
+    "format": "   {:%A, %d %B}"
+  },
+  "clock#time": {
+    "format": "   {:%H:%M}"
+  },
+  "network": {
+    "format-wifi": "    {essid}",
+    "format-disconnected": "     Disconnected",
+    "tooltip-format-wifi": "{essid} ({signalStrength}%)  ",
+    "format-ethernet": "󱘖    Connected",
+  },
+  "pulseaudio": {
+    "format": "    {volume}%",
+    "format-bluetooth": "    {volume}%",
+    "format-muted": " ",
+    "on-click": "pavucontrol",
+    "scroll-step": 5
+  },
+}

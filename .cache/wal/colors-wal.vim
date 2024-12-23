@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/ayoub/Pictures/wallpapers/ign-0001.png"
+let background = "#12171f"
+let foreground = "#dfe4ea"
+let cursor     = "#dfe4ea"
+
+" Colors
+let color0  = "#12171f"
+let color1  = "#6E91AF"
+let color2  = "#7496AC"
+let color3  = "#7CA8C2"
+let color4  = "#8DA2B4"
+let color5  = "#9AB5C7"
+let color6  = "#B4C7D5"
+let color7  = "#dfe4ea"
+let color8  = "#9c9fa3"
+let color9  = "#6E91AF"
+let color10 = "#7496AC"
+let color11 = "#7CA8C2"
+let color12 = "#8DA2B4"
+let color13 = "#9AB5C7"
+let color14 = "#B4C7D5"
+let color15 = "#dfe4ea"

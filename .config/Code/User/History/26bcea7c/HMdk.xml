@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cartelera xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="rickandmorty.xsd">
+    <episodio codigo="101" duracion="22" temporada="1">
+        <titulo>Pilot</titulo>
+        <genero>Ciencia ficción</genero>
+        <clasificacion edad="+12"/>
+        <sinopsis>
+            Rick lleva a Morty a una dimensión alternativa para recolectar semillas de Megaarboles, lo que lleva a un desastre interdimensional.
+        </sinopsis>
+        <director>Justin Roiland</director>
+        <personajes principales="Rick Sanchez, Morty Smith"/>
+        <reparto>
+            <actor>Justin Roiland</actor>
+            <actor>Chris Parnell</actor>
+            <actor>Spencer Grammer</actor>
+        </reparto>
+        <web>https://rickandmorty.com/pilot</web>
+        <cartel>carteles/pilot.jpg</cartel>
+    </episodio>
+</cartelera>

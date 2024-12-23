@@ -1,0 +1,6 @@
+2024-12-22 20:32:30.800 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-12-22 20:32:30.800 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-12-22 20:32:30.800 [info] Experiment 'pythonTestAdapter' is active
+2024-12-22 20:32:30.800 [info] Python interpreter path: /bin/python
+2024-12-22 20:32:30.828 [info] > conda info --json
+2024-12-22 20:32:31.646 [info] Starting Pylance language server.

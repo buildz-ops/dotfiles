@@ -1,0 +1,55 @@
+@import '../../.cache/wal/colors-waybar.css';
+
+@define-color primary @color0;
+@define-color accent @color2;
+
+* {
+    font-family: "SpaceMono NF";
+    font-size: 13px;
+    transition: background-color .3s ease-out;
+    color: #FFF;
+}
+
+window#waybar {
+  background: none;
+}
+
+.modules-left, .modules-center, .modules-right {
+  margin: 16px;
+}
+
+#custom-distro, #cpu, #memory, #disk, #temperature, #clock, #network, #pulseaudio {
+  background: @primary;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+#workspaces {
+  background: @primary;
+  border-radius: 8px;
+}
+
+#workspaces button.active {
+  background: @accent;
+}
+
+#custom-distro {
+    font-size: 16px;
+}
+
+#custom-distro, #network, #clock.time {
+  background: @accent;
+}
+
+#network.disabled, #network.disconnected {
+  background: @primary;
+}
+
+#clock.time {
+  margin-left: -8px;
+  border-radius: 0 8px 8px 0;
+}
+
+#clock {
+  border-radius: 8px 0 0 8px;
+}

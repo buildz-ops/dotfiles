@@ -1,0 +1,42 @@
+Dec 08, 2024 1:27:48 AM org.eclipse.lemminx.XMLLanguageServer initialize
+INFO: Initializing XML Language server
+LemMinX Server info:
+ - Version : 0.29.1-SNAPSHOT
+ - Native Image
+ - VM Version : 17.0.9
+ - Git e507183 - [maven-release-plugin] prepare for next development iteration
+Dec 08, 2024 1:48:25 AM org.eclipse.lemminx.XMLLanguageServer initialize
+INFO: Initializing XML Language server
+LemMinX Server info:
+ - Version : 0.29.1-SNAPSHOT
+ - Native Image
+ - VM Version : 17.0.9
+ - Git e507183 - [maven-release-plugin] prepare for next development iteration
+Dec 08, 2024 3:04:46 AM org.eclipse.lemminx.XMLLanguageServer initialize
+INFO: Initializing XML Language server
+LemMinX Server info:
+ - Version : 0.29.1-SNAPSHOT
+ - Native Image
+ - VM Version : 17.0.9
+ - Git e507183 - [maven-release-plugin] prepare for next development iteration
+Dec 19, 2024 4:01:02 PM org.eclipse.lemminx.XMLLanguageServer initialize
+INFO: Initializing XML Language server
+LemMinX Server info:
+ - Version : 0.29.0
+ - Native Image
+ - VM Version : 17.0.9
+ - Git acacf75 - [maven-release-plugin] prepare release 0.29.0
+Dec 19, 2024 6:37:37 PM org.eclipse.lemminx.XMLLanguageServer initialize
+INFO: Initializing XML Language server
+LemMinX Server info:
+ - Version : 0.29.0
+ - Native Image
+ - VM Version : 17.0.9
+ - Git acacf75 - [maven-release-plugin] prepare release 0.29.0
+Dec 19, 2024 6:38:00 PM org.eclipse.lemminx.XMLLanguageServer initialize
+INFO: Initializing XML Language server
+LemMinX Server info:
+ - Version : 0.29.0
+ - Native Image
+ - VM Version : 17.0.9
+ - Git acacf75 - [maven-release-plugin] prepare release 0.29.0

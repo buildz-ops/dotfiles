@@ -1,0 +1,54 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20241216_200255
+====================================================================================================
+
+0     |Info:    Found file: all-white.orp attempting to validate header
+0     |Info:    Valid v4 profile found for all-white
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    |               Start device detection               |
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    Initializing HID interfaces: Success
+1006  |Info:    ------------------------------------------------------
+1006  |Info:    |             Detecting I2C interfaces               |
+1006  |Info:    ------------------------------------------------------
+1006  |Info:    Registering I2C interface: /dev/i2c-3 Device 8086:3E92 Subsystem: 17AA:3138
+1007  |Info:    Registering I2C interface: /dev/i2c-10 Device 10DE:1BB1 Subsystem: 10DE:11A3
+1007  |Info:    Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+1007  |Info:    Registering I2C interface: /dev/i2c-8 Device 10DE:1BB1 Subsystem: 10DE:11A3
+1007  |Info:    Registering I2C interface: /dev/i2c-6 Device 8086:3E92 Subsystem: 17AA:3138
+1007  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1007  |Info:    Registering I2C interface: /dev/i2c-13 Device 0000:0000 Subsystem: 0000:0000
+1007  |Info:    Registering I2C interface: /dev/i2c-4 Device 8086:3E92 Subsystem: 17AA:3138
+1007  |Info:    Registering I2C interface: /dev/i2c-11 Device 10DE:1BB1 Subsystem: 10DE:11A3
+1007  |Info:    Registering I2C interface: /dev/i2c-2 Device 0000:0000 Subsystem: 0000:0000
+1007  |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:A323 Subsystem: 17AA:3138
+1007  |Info:    Registering I2C interface: /dev/i2c-9 Device 10DE:1BB1 Subsystem: 10DE:11A3
+1007  |Info:    Registering I2C interface: /dev/i2c-7 Device 10DE:1BB1 Subsystem: 10DE:11A3
+1007  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1007  |Info:    Registering I2C interface: /dev/i2c-14 Device 0000:0000 Subsystem: 0000:0000
+1007  |Info:    Registering I2C interface: /dev/i2c-5 Device 8086:3E92 Subsystem: 17AA:3138
+1007  |Info:    Registering I2C interface: /dev/i2c-12 Device 10DE:1BB1 Subsystem: 10DE:11A3
+1007  |Info:    ------------------------------------------------------
+1007  |Info:    |               Detecting I2C devices                |
+1007  |Info:    ------------------------------------------------------
+1538  |Info:    ------------------------------------------------------
+1538  |Info:    |               Detecting I2C PCI devices            |
+1538  |Info:    ------------------------------------------------------
+1539  |Info:    ------------------------------------------------------
+1539  |Info:    |               Detecting HID devices                |
+1539  |Info:    ------------------------------------------------------
+1550  |Info:    [Razer Viper Mini] Registering RGB controller
+1564  |Info:    [KLM] Created new Tenkeyless ISO QWERTY with 6 rows and 17 columns containing 88 keys
+1564  |Info:    [Razer Huntsman Tournament Edition] Registering RGB controller
+1564  |Info:    ------------------------------------------------------
+1564  |Info:    |            Detecting libusb HID devices            |
+1564  |Info:    ------------------------------------------------------
+1578  |Info:    ------------------------------------------------------
+1578  |Info:    |              Detecting other devices               |
+1578  |Info:    ------------------------------------------------------
+1582  |Info:    ------------------------------------------------------
+1582  |Info:    |                Detection completed                 |
+1582  |Info:    ------------------------------------------------------
+1582  |Info:    Profile loading: FAILED! for Razer Viper Mini @ HID: /dev/hidraw0
+1582  |Info:    Profile loading: Succeeded for Razer Huntsman Tournament Edition @ HID: /dev/hidraw2

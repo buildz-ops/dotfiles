@@ -1,0 +1,38 @@
+2024-12-23 18:33:30.363 [info] [main] Log level: Info
+2024-12-23 18:33:30.364 [info] [main] Validating found git in: "git"
+2024-12-23 18:33:30.364 [info] [main] Using git "2.47.1" from "git"
+2024-12-23 18:33:30.364 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-23 18:33:30.364 [info] > git rev-parse --show-toplevel [80ms]
+2024-12-23 18:33:30.364 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (1), unsafe repositories (0)
+2024-12-23 18:33:33.595 [info] > git rev-parse --show-toplevel [0ms]
+2024-12-23 18:33:33.600 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-12-23 18:33:33.605 [info] [Model][openRepository] Opened repository: /home/ayoub/dotfiles
+2024-12-23 18:33:33.612 [info] > git config --get commit.template [1ms]
+2024-12-23 18:33:33.619 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-23 18:33:33.628 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-12-23 18:33:33.914 [info] > git show --textconv :waybar/style.css [5ms]
+2024-12-23 18:33:33.914 [info] > git ls-files --stage -- /home/ayoub/dotfiles/waybar/style.css [1ms]
+2024-12-23 18:33:33.918 [info] > git cat-file -s 7fe486543153f1de4109d4f1843dda8e784aa781 [0ms]
+2024-12-23 18:33:34.213 [info] > git check-ignore -v -z --stdin [1ms]
+2024-12-23 18:33:34.236 [info] > git status -z -uall [613ms]
+2024-12-23 18:33:34.263 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-12-23 18:33:34.268 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-12-23 18:33:34.268 [warning] [Git][config] git config failed: Failed to execute git
+2024-12-23 18:33:34.272 [info] > git config --get commit.template [11ms]
+2024-12-23 18:33:34.276 [info] > git reflog main --grep-reflog=branch: Created from *. [4ms]
+2024-12-23 18:33:34.280 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-12-23 18:33:34.288 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [8ms]
+2024-12-23 18:33:34.292 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-12-23 18:33:34.292 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [0ms]
+2024-12-23 18:33:34.296 [info] > git config --local branch.main.vscode-merge-base origin/main [0ms]
+2024-12-23 18:33:34.305 [info] > git status -z -uall [22ms] (cancelled)
+2024-12-23 18:33:34.305 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-12-23 18:33:34.309 [info] > git config --get commit.template [4ms]
+2024-12-23 18:33:34.310 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-12-23 18:33:34.317 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [4ms]
+2024-12-23 18:33:34.318 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-23 18:33:34.327 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-12-23 18:33:34.601 [info] > git status -z -uall [279ms]
+2024-12-23 18:33:35.707 [info] > git ls-files --stage -- /home/ayoub/dotfiles/waybar/style.css [1ms]
+2024-12-23 18:33:35.711 [info] > git cat-file -s 7fe486543153f1de4109d4f1843dda8e784aa781 [0ms]
+2024-12-23 18:33:35.717 [info] > git show --textconv :waybar/style.css [2ms]

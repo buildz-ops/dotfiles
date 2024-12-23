@@ -1,0 +1,56 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20241214_173130
+====================================================================================================
+
+0     |Info:    Found file: all-white.orp attempting to validate header
+0     |Info:    Valid v4 profile found for all-white
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    |               Start device detection               |
+1001  |Info:    ------------------------------------------------------
+1002  |Info:    Initializing HID interfaces: Success
+1007  |Info:    ------------------------------------------------------
+1007  |Info:    |             Detecting I2C interfaces               |
+1007  |Info:    ------------------------------------------------------
+1007  |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:2216 Subsystem: 1043:8822
+1007  |Info:    Registering I2C interface: /dev/i2c-1 Device 1022:790B Subsystem: 1043:87C0
+1007  |Info:    Registering I2C interface: /dev/i2c-8 Device 10DE:2216 Subsystem: 1043:8822
+1008  |Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:2216 Subsystem: 1043:8822
+1008  |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:2216 Subsystem: 1043:8822
+1008  |Info:    Registering I2C interface: /dev/i2c-2 Device 1022:790B Subsystem: 1043:87C0
+1008  |Info:    Registering I2C interface: /dev/i2c-0 Device 1022:790B Subsystem: 1043:87C0
+1008  |Info:    Registering I2C interface: /dev/i2c-7 Device 10DE:2216 Subsystem: 1043:8822
+1008  |Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:2216 Subsystem: 1043:8822
+1008  |Info:    ------------------------------------------------------
+1008  |Info:    |               Detecting I2C devices                |
+1008  |Info:    ------------------------------------------------------
+1879  |Info:    [Corsair Dominator Platinum] Registering RGB controller
+1891  |Info:    [Corsair Dominator Platinum] Registering RGB controller
+2028  |Info:    ------------------------------------------------------
+2028  |Info:    |               Detecting I2C PCI devices            |
+2028  |Info:    ------------------------------------------------------
+2226  |Info:    [ASUS TUF RTX 3080 O10G V2 GAMING] Registering RGB controller
+2396  |Info:    ------------------------------------------------------
+2396  |Info:    |               Detecting HID devices                |
+2396  |Info:    ------------------------------------------------------
+3745  |Info:    [NZXT Kraken X3 Series] Registering RGB controller
+3821  |Info:    [ASUS TUF GAMING X570-PLUS (WI-FI)] Registering RGB controller
+3852  |Info:    [KLM] Created new Tenkeyless ISO QWERTY with 6 rows and 17 columns containing 88 keys
+3852  |Info:    [Razer Huntsman Tournament Edition] Registering RGB controller
+3902  |Info:    [Logitech G915 Wireless RGB Mechanical Gaming Keyboard] Registering RGB controller
+3902  |Info:    ------------------------------------------------------
+3902  |Info:    |            Detecting libusb HID devices            |
+3902  |Info:    ------------------------------------------------------
+4128  |Info:    ------------------------------------------------------
+4128  |Info:    |              Detecting other devices               |
+4128  |Info:    ------------------------------------------------------
+4134  |Info:    ------------------------------------------------------
+4134  |Info:    |                Detection completed                 |
+4134  |Info:    ------------------------------------------------------
+4134  |Info:    Profile loading: Succeeded for Corsair Dominator Platinum @ I2C: /dev/i2c-0, address 0x5A
+4134  |Info:    Profile loading: Succeeded for Corsair Dominator Platinum @ I2C: /dev/i2c-0, address 0x5B
+4134  |Info:    Profile loading: Succeeded for ASUS TUF RTX 3080 O10G V2 GAMING @ I2C: /dev/i2c-3, address 0x67
+4134  |Info:    Profile loading: Succeeded for NZXT Kraken X3 Series @ HID: /dev/hidraw0
+4134  |Info:    Profile loading: Succeeded for ASUS TUF GAMING X570-PLUS (WI-FI) @ HID: /dev/hidraw2
+4134  |Info:    Profile loading: Succeeded for Razer Huntsman Tournament Edition @ HID: /dev/hidraw6
+4134  |Info:    Profile loading: Succeeded for Logitech G915 Wireless RGB Mechanical Gaming Keyboard @ 

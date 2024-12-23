@@ -1,0 +1,69 @@
+Ayoub Ammar Chaibi 1º ASIX 17/12/2024 INF-A22-19
+
+1. Lista todos los datos de los clientes de Denver y de Los Ángeles
+
+-Consulta: select * from clientes where rep_clie in (select num_empl from repventas where oficina_rep in (select oficina from oficinas where ciudad='Los Angeles' or ciudad='Denver' and oficina=oficina_rep));
+
+-Resultado:
+
+ num_clie |     empresa      | rep_clie | limite_credito
+----------+------------------+----------+----------------
+     2106 | Fred Lewis Corp. |      102 |       65000.00
+     2120 | Rico Enterprises |      102 |       50000.00
+     2114 | Orion Corp       |      102 |       20000.00
+     2123 | Carter & Sons    |      102 |       40000.00
+     2118 | Midwest Systems  |      108 |       60000.00
+     2112 | Zetacorp         |      108 |       50000.00
+     2124 | Peter Brothers   |      107 |       40000.00
+(7 rows)
+
+2. Lista los vendedores con cuotas iguales o superiores al objetivo de la oficina que tiene las ventas más bajas
+
+-Consulta: select nombre,num_empl from repventas where cuota > (select objetivo from oficinas where ventas = (select min(ventas) from oficinas));
+
+-Resultado:
+
+   nombre    | num_empl
+-------------+----------
+ Bill Adams  |      105
+ Sue Smith   |      102
+ Larry Fitch |      108
+(3 rows)
+
+3. Dada la siguiente consulta:
+    select empresa
+    from clientes
+    where exists (select *
+                          from pedidos
+                          where rep=num_empl
+                          and importe>(cuota*10/100)
+                          and rep_clie=num_empl);
+  a. Encuentra un enunciado para esta consulta.
+
+
+  b. Encuentra tres diferentes versiones para esta consulta haciendo servir: ANY, IN, y multitabla
+
+
+4. Queremos una lista de los clientes que no tienen pedido ningún producto de los fabricantes 'ACI' ni 'IMM'. Se proponen las dos soluciones siguientes:
+
+    Solución A: SELECT num_clie,empresa
+                   FROM clientes
+                   WHERE num_clie IN (SELECT clie
+                                         FROM pedidos
+                                         WHERE fab!='aci' AND fab!='imm');
+
+    Solución B: SELECT num_clie,empresa
+                   FROM clientes
+                   WHERE num_clie NOT IN (SELECT clie
+                                             FROM pedidos
+                                             WHERE fab='aci' OR fab='imm');
+
+    a. Investiga si son correctas las dos, ninguna de las dos o alguna de las dos. Razona bien la respuesta.
+
+
+5. Queremos una relación ordenada de más a menos por cantidad de productos solicitados, de los pedidos que han hecho nuestros clientes.
+   Se han de incluir aquellos clientes que no han hecho nunca un pedido. (Hace falta sacar: empresa, fabricante, producto y cantidad de pedidos realizados)
+   [Aquí puedes utilizar multitabla].
+
+
+6. Quién es el cliente o clientes que menos pedidos ha hecho.
