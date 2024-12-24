@@ -81,7 +81,7 @@ function lsadv
 end
 
 function pipes
-    pipes.sh -f 100 -c 4
+    pipes.sh -f 100 -t 3
 end
 
 fish_add_path /home/ayoub/.spicetify

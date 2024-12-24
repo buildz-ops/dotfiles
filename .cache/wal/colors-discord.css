@@ -11,83 +11,83 @@
     /* font-style: italic; */
 
     /* *.background */
-    --background-primary: #191e25;
-    --background-secondary: #191e25;
-    --background-tertiary: #191e25;
+    --background-primary: #11161e;
+    --background-secondary: #11161e;
+    --background-tertiary: #11161e;
 
-    --background-primary-alt: #191e25;
-    --background-secondary-alt: #191e25;
-    --background-tertiary-alt: #191e25;
+    --background-primary-alt: #11161e;
+    --background-secondary-alt: #11161e;
+    --background-tertiary-alt: #11161e;
 
-    --channeltextarea-background: #191e25;
-    --custom-channel-members-bg: #191e25;
+    --channeltextarea-background: #11161e;
+    --custom-channel-members-bg: #11161e;
 
-    --profile-gradient-primary-color: #191e25;
-    --profile-gradient-secondary-color: #191e25;
+    --profile-gradient-primary-color: #11161e;
+    --profile-gradient-secondary-color: #11161e;
 
-    --__header-bar-background: #191e25 !important;
+    --__header-bar-background: #11161e !important;
 
-    --scrollbar-auto-track: #191e25;
-    --scrollbar-thin-track: #191e25;
+    --scrollbar-auto-track: #11161e;
+    --scrollbar-thin-track: #11161e;
 
     /* slightly darker background - useful for separating */
-    --input-background: color-mix(in srgb, #191e25, black 20%);
-    --autocomplete-bg: color-mix(in srgb, #191e25, black 20%);
-    --background-nested-floating: color-mix(in srgb, #191e25, black 20%);
-    --background-floating: color-mix(in srgb, #191e25, black 20%);
+    --input-background: color-mix(in srgb, #11161e, black 20%);
+    --autocomplete-bg: color-mix(in srgb, #11161e, black 20%);
+    --background-nested-floating: color-mix(in srgb, #11161e, black 20%);
+    --background-floating: color-mix(in srgb, #11161e, black 20%);
 
     /* primary.* */
-    --primary-630: #191e25;
+    --primary-630: #11161e;
 
     /* *.color2 - secondary elements */
-    --scrollbar-auto-thumb: #B79178;
-    --scrollbar-thin-thumb: #B79178;
-    --interactive-muted: #B79178;
-    --text-muted: #B79178;
-    --background-modifier-hover: color-mix(in srgb, #B79178, black 40%);
-    --background-modifier-active: color-mix(in srgb, #B79178, black 20%);
-    --background-modifier-accent: #B79178;
-    --background-accent: #B79178;
+    --scrollbar-auto-thumb: #707888;
+    --scrollbar-thin-thumb: #707888;
+    --interactive-muted: #707888;
+    --text-muted: #707888;
+    --background-modifier-hover: color-mix(in srgb, #707888, black 40%);
+    --background-modifier-active: color-mix(in srgb, #707888, black 20%);
+    --background-modifier-accent: #707888;
+    --background-accent: #707888;
 
     /* *.color3 */
-    --red-400: #3C6281;
-    --background-modifier-selected: #3C6281;
+    --red-400: #848582;
+    --background-modifier-selected: #848582;
 
     /* *.color4 - main theme color: flashy, important elements */
-    --status-danger: #5B7294;
-    --button-outline-danger-border: #5B7294;
-    --button-outline-danger-text: #5B7294;
-    --button-danger-background: #5B7294;
+    --status-danger: #9FAB98;
+    --button-outline-danger-border: #9FAB98;
+    --button-outline-danger-text: #9FAB98;
+    --button-danger-background: #9FAB98;
 
-    --yellow-300: #5B7294;
+    --yellow-300: #9FAB98;
 
     /* *.color5 - light theme color */
-    --header-primary: #8D788C;
-    --brand-experiment: #8D788C;
-    --brand-experiment-360: #8D788C;
-    --brand-experiment-500: #8D788C;
-    --profile-gradient-button-color: #8D788C;
+    --header-primary: #ABC392;
+    --brand-experiment: #ABC392;
+    --brand-experiment-360: #ABC392;
+    --brand-experiment-500: #ABC392;
+    --profile-gradient-button-color: #ABC392;
 
-    --green-360: #8D788C;
+    --green-360: #ABC392;
 
     /* *.color6 - lighter theme color */
-    --channels-default: #678DB2;
-    --channel-icon: #678DB2;
+    --channels-default: #B7BDC9;
+    --channel-icon: #B7BDC9;
 
     /* *.color7 - very light, text and foreground */
-    --text-normal: #cdc1ca;
-    --interactive-active: #cdc1ca;
+    --text-normal: #dfe1e6;
+    --interactive-active: #dfe1e6;
 }
 
 /* status indicators */
 rect[fill="#f23f43"] {
-    fill: #3C6281 !important;
+    fill: #848582 !important;
 }
 
 rect[fill="#f0b232"] {
-    fill: #5B7294 !important;
+    fill: #9FAB98 !important;
 }
 
 rect[fill="#23a55a"] {
-    fill: #8D788C !important;
+    fill: #ABC392 !important;
 }
