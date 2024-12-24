@@ -20,14 +20,14 @@ pacman -S stow
 
 ## Installation
 
-First, check out the dotfiles repo in your $HOME directory using git
+First, clone the dotfiles repo in your $HOME directory using git
 
 ```
 $ git clone [git@github.com:buildz-ops/dotfiles.git]
 $ cd dotfiles
 ```
 
-then use GNU stow to create symlinks
+then use GNU stow to create the symlinks
 
 ```
 $ stow .
