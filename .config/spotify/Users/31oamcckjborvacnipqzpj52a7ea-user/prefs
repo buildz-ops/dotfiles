@@ -1,5 +1,5 @@
+connect.dial_devices="[{\"address\":\"192.168.1.131\",\"app_state\":\"MISSING\",\"created_timestamp\":1734987093,\"device_id\":\"e9fcffe9-6f7d-47f2-9e9e-75c3f232281f\",\"dial_location_url\":\"http://192.168.1.131:7678/nservice/\",\"display_name\":\"Samsung Q80BA 65 TV\",\"last_seen\":1734987139,\"manufacturer\":\"Samsung\",\"model_name\":\"QE65Q80BATXXC\",\"product_cap\":\"Resolution:1920X1080,Tizen,Y2021\",\"public_ip\":\"93.176.143.182\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":50,\"mac\":\"5444a362468e\",\"port\":9,\"retries\":400}}]"
 audio.play_bitrate_non_metered_migrated=true
-connect.dial_devices="[{\"address\":\"192.168.1.131\",\"app_state\":\"MISSING\",\"created_timestamp\":1734973855,\"device_id\":\"e9fcffe9-6f7d-47f2-9e9e-75c3f232281f\",\"dial_location_url\":\"http://192.168.1.131:7678/nservice/\",\"display_name\":\"Samsung Q80BA 65 TV\",\"last_seen\":1734982314,\"manufacturer\":\"Samsung\",\"model_name\":\"QE65Q80BATXXC\",\"product_cap\":\"Resolution:1920X1080,Tizen,Y2021\",\"public_ip\":\"93.176.143.182\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":50,\"mac\":\"5444a362468e\",\"port\":9,\"retries\":400}}]"
 ui.track_notifications_enabled=false
 ui.hide_hpto=true
 app.player.volume=42280

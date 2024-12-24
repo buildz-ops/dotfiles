@@ -3,22 +3,22 @@
     "telemetry.machineId": "071bc766b909b6c55f9c0b1303bffc197b452bc5be526cf6db3ce0ef3fe248a5",
     "telemetry.devDeviceId": "75e919a5-22aa-4ff7-b7b7-a64857d6e3e1",
     "backupWorkspaces": {
-        "workspaces": [],
-        "folders": [],
-        "emptyWindows": [
+        "workspaces": [
             {
-                "backupFolder": "1734977953708"
+                "id": "07d70a362de9f81db2df8ad05c76ebbb",
+                "configURIPath": "file:///home/ayoub/.config/Code/Workspaces/1734987689909/workspace.json"
             }
-        ]
+        ],
+        "folders": [],
+        "emptyWindows": []
     },
     "profileAssociations": {
         "workspaces": {
             "file:///home/ayoub/.cache/oh-my-posh/themes": "__default__profile__",
-            "file:///home/ayoub/.config/Code%20-%20OSS/Workspaces/1733667744782/workspace.json": "__default__profile__"
+            "file:///home/ayoub/.config/Code%20-%20OSS/Workspaces/1733667744782/workspace.json": "__default__profile__",
+            "file:///home/ayoub/.config/Code/Workspaces/1734987689909/workspace.json": "__default__profile__"
         },
-        "emptyWindows": {
-            "1734977953708": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -70,7 +70,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -88,6 +89,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/ayoub/.cache/oh-my-posh/themes/1_shell.omp.json",
+                                        "path": "/home/ayoub/.cache/oh-my-posh/themes/1_shell.omp.json",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.cache/oh-my-posh/themes/1_shell.omp.json"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -187,17 +199,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/.config/rofi/colors/nord2.rasi"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/ayoub/.config/rofi/colors/nord.rasi",
-                                        "path": "/home/ayoub/.config/rofi/colors/nord.rasi",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/rofi/colors/nord.rasi"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -350,6 +351,10 @@
                         "id": "workbench.action.closeActiveEditor",
                         "label": "&&Close Editor",
                         "enabled": false
+                    },
+                    {
+                        "id": "workbench.action.closeFolder",
+                        "label": "Close &&Workspace"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -755,6 +760,13 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.moveEditorToNewWindow",
                                     "label": "&&Move Editor into New Window"
                                 },
@@ -863,7 +875,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -872,7 +885,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1394,6 +1408,11 @@
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
             },
+            "workbench.action.closeFolder": {
+                "label": "Ctrl+K F",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k f"
+            },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
                 "userSettingsLabel": "alt+f4"
@@ -1757,23 +1776,23 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#1b1e25",
+    "themeBackground": "#1a1e25",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "rgba(182, 199, 215, 0.6)",
-            "background": "#1b1e25",
-            "editorBackground": "#1b1e25",
-            "titleBarBackground": "#1b1e25",
-            "titleBarBorder": "#1b1e25",
-            "activityBarBackground": "#1b1e25",
-            "activityBarBorder": "#1b1e25",
-            "sideBarBackground": "#1b1e25",
-            "sideBarBorder": "#1b1e25",
-            "statusBarBackground": "#1b1e25",
-            "statusBarBorder": "#1b1e25",
-            "statusBarNoFolderBackground": "#20242c"
+            "foreground": "rgba(223, 225, 228, 0.6)",
+            "background": "#1a1e25",
+            "editorBackground": "#1a1e25",
+            "titleBarBackground": "#1a1e25",
+            "titleBarBorder": "#1a1e25",
+            "activityBarBackground": "#1a1e25",
+            "activityBarBorder": "#1a1e25",
+            "sideBarBackground": "#1a1e25",
+            "sideBarBorder": "#1a1e25",
+            "statusBarBackground": "#1a1e25",
+            "statusBarBorder": "#1a1e25",
+            "statusBarNoFolderBackground": "#1f242c"
         },
         "layoutInfo": {
             "sideBarSide": "right",
@@ -1787,13 +1806,17 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/ayoub/.config/Code/Backups/1734977953708",
+            "workspaceIdentifier": {
+                "id": "07d70a362de9f81db2df8ad05c76ebbb",
+                "configURIPath": "file:///home/ayoub/.config/Code/Workspaces/1734987689909/workspace.json"
+            },
+            "backupPath": "/home/ayoub/.config/Code/Backups/07d70a362de9f81db2df8ad05c76ebbb",
             "uiState": {
                 "mode": 1,
-                "x": 2885,
+                "x": 8,
                 "y": 51,
-                "width": 947,
-                "height": 506
+                "width": 1904,
+                "height": 1021
             }
         },
         "openedWindows": []

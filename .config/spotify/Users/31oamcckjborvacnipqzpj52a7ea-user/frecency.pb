@@ -2,36 +2,36 @@
 >
 'spotify:playlist:37i9dQZF1DZ06evO177mU2	”?ŠêöÂy@ È¨žº
 >
-'spotify:playlist:37i9dQZF1E4AbUaokV3uTj	î^ñzÄy@ Åò¦º
+'spotify:playlist:37i9dQZF1E4AbUaokV3uTj	ŸÚKW™Äy@ Åò¦º
 >
-'spotify:playlist:37i9dQZF1DZ06evO2dlqfe	…ø;	[Äy@ °Ý«º
+'spotify:playlist:37i9dQZF1DZ06evO2dlqfe	6t–ååÄy@ °Ý«º
 >
-'spotify:playlist:4VSkSqu9jAu7AGjJbogllq	ÎçM[yÅy@ ëç½º
+'spotify:playlist:4VSkSqu9jAu7AGjJbogllq	c¨7Æy@ ëç½º
 `
-4spotify:user:31oamcckjborvacnipqzpj52a7ea:collection	›û_"ÿˆy@ ÊŒÓ¹	Ú&ÃÈy@ ÏËèº
+4spotify:user:31oamcckjborvacnipqzpj52a7ea:collection	›û_"ÿˆy@ ÊŒÓ¹	‹Š€Ÿ©Èy@ ÏËèº
 >
-'spotify:playlist:37i9dQZF1DWWQRwui0ExPn	Ê}•«øÆy@ «‚Öº
+'spotify:playlist:37i9dQZF1DWWQRwui0ExPn	{ùï‡ƒÇy@ «‚Öº
 >
-'spotify:playlist:37i9dQZF1E4wqK0F0DHsg1	•”zêÈy@ ­ºõº
+'spotify:playlist:37i9dQZF1E4wqK0F0DHsg1	¶ïVuÉy@ ­ºõº
 >
-'spotify:playlist:37i9dQZF1E39vg6LH7FCfu	ð¼î÷AÄy@ ß’ªº
+'spotify:playlist:37i9dQZF1E39vg6LH7FCfu	¡8IÔÌÄy@ ß’ªº
 >
-'spotify:playlist:37i9dQZF1DZ06evO1DdpQt	F^™«™Çy@ ã—àº
+'spotify:playlist:37i9dQZF1DZ06evO1DdpQt	÷Ùó‡$Èy@ ã—àº
 >
-'spotify:playlist:37i9dQZF1DZ06evO2jUoD0	Uœä|Åy@ ¶„¾º
+'spotify:playlist:37i9dQZF1DZ06evO2jUoD0	”öÀÆy@ ¶„¾º
 >
-'spotify:playlist:37i9dQZF1E364PnMw3Wujj	×EÈy@ ¨ýçº
+'spotify:playlist:37i9dQZF1E364PnMw3Wujj	ˆ•ŸïŸÈy@ ¨ýçº
 >
-'spotify:playlist:37i9dQZF1E37cOOQ6Dv2ho	-“ˆ:Èy@ òˆ¥»
+'spotify:playlist:37i9dQZF1E37cOOQ6Dv2ho	,aèÈy@ òˆ¥»
 >
-'spotify:playlist:37i9dQZF1FoyQGyinuuvRu	™+úCÆy@ ïÚÆº
+'spotify:playlist:37i9dQZF1FoyQGyinuuvRu	J§T ‘Æy@ ïÚÆº
 >
-'spotify:playlist:37i9dQZF1DZ06evO274S8H	‚õÇßýÈy@ ‘×öº
+'spotify:playlist:37i9dQZF1DZ06evO274S8H	3q"¼ˆÉy@ ‘×öº
 >
-'spotify:playlist:37i9dQZF1EIXmWUF00Staq	KÑ°¤Æy@ Ã¢Ðº
+'spotify:playlist:37i9dQZF1EIXmWUF00Staq	üL(Çy@ Ã¢Ðº
 >
-'spotify:playlist:37i9dQZF1DZ06evO19t6P6	ë^<O3Êy@ ù«»
+'spotify:playlist:37i9dQZF1DZ06evO19t6P6	÷bÆ¡ÈÊy@ ù«»
 >
-'spotify:playlist:37i9dQZF1E4oK4XHxw0L0k	šƒÐNÈy@ †Ðëº
+'spotify:playlist:37i9dQZF1E4oK4XHxw0L0k	Kÿê¬ÙÈy@ †Ðëº
 >
-'spotify:playlist:37i9dQZF1EYkqdzj48dyYq	¡ÇüÚ„Éy@ äï¡»
+'spotify:playlist:37i9dQZF1EYkqdzj48dyYq	ÍQ@#Êy@ äï¡»

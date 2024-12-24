@@ -1,0 +1,79 @@
+2024-12-23 21:51:28.031 [info] Extension host with pid 3946 started
+2024-12-23 21:51:28.083 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-12-23 21:51:28.147 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-12-23 21:51:28.149 [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+2024-12-23 21:51:28.177 [info] ExtensionService#_doActivateExtension s-nlf-fh.glassit, startup: true, activationEvent: '*'
+2024-12-23 21:51:28.229 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-12-23 21:51:28.270 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-12-23 21:51:28.319 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-23 21:51:28.326 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-23 21:51:28.360 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-23 21:51:28.393 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-12-23 21:51:28.417 [info] Eager extensions activated
+2024-12-23 21:51:28.442 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-23 21:51:28.443 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-23 21:51:28.454 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2024-12-23 21:51:28.455 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-12-23 21:51:28.506 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: false, activationEvent: 'onStartupFinished'
+2024-12-23 21:51:28.511 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-12-23 21:51:28.519 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-12-23 21:51:46.516 [info] Extension host terminating: renderer closed the MessagePort
+2024-12-23 21:51:46.528 [info] Extension host with pid 3946 exiting with code 0
+2024-12-23 21:51:47.130 [info] Extension host with pid 4253 started
+2024-12-23 21:51:47.130 [info] Skipping acquiring lock for /home/ayoub/.config/Code/User/workspaceStorage/b6f6eb77f3b917ca7b13d3568343ffce.
+2024-12-23 21:51:47.156 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-12-23 21:51:47.201 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-12-23 21:51:47.202 [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+2024-12-23 21:51:47.212 [info] ExtensionService#_doActivateExtension s-nlf-fh.glassit, startup: true, activationEvent: '*'
+2024-12-23 21:51:47.263 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-12-23 21:51:47.302 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-12-23 21:51:47.360 [info] Eager extensions activated
+2024-12-23 21:51:47.361 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-23 21:51:47.367 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-23 21:51:47.400 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-23 21:51:47.431 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-12-23 21:51:47.450 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-23 21:51:47.451 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-23 21:51:47.462 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2024-12-23 21:51:47.463 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-12-23 21:51:47.504 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: false, activationEvent: 'onStartupFinished'
+2024-12-23 21:51:47.508 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-12-23 21:51:47.516 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-12-23 21:51:48.921 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-12-23 21:51:48.931 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-12-23 22:01:29.134 [info] Extension host terminating: renderer closed the MessagePort
+2024-12-23 22:01:29.146 [info] Extension host with pid 4253 exiting with code 0
+2024-12-23 22:01:29.495 [info] Extension host with pid 33535 started
+2024-12-23 22:01:29.495 [info] Skipping acquiring lock for /home/ayoub/.config/Code/User/workspaceStorage/07d70a362de9f81db2df8ad05c76ebbb.
+2024-12-23 22:01:29.501 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-12-23 22:01:29.521 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-23 22:01:29.528 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-23 22:01:29.561 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-23 22:01:29.592 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-12-23 22:01:29.604 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onCommand:vscode-html-css.validate'
+2024-12-23 22:01:29.605 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-12-23 22:01:29.612 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-12-23 22:01:29.779 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-12-23 22:01:29.780 [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+2024-12-23 22:01:29.790 [info] ExtensionService#_doActivateExtension s-nlf-fh.glassit, startup: true, activationEvent: '*'
+2024-12-23 22:01:29.837 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-12-23 22:01:29.874 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-12-23 22:01:29.929 [info] Eager extensions activated
+2024-12-23 22:01:29.940 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-23 22:01:29.941 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-23 22:01:29.951 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-12-23 22:01:29.991 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: false, activationEvent: 'onStartupFinished'
+2024-12-23 22:01:29.995 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-12-23 22:01:30.005 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-12-23 22:01:31.549 [info] Extension host terminating: renderer closed the MessagePort
+2024-12-23 22:01:31.566 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+	at new IT (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:110702)
+	at Dy.U (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:115312)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112806)
+	at V0.resolveProxy (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:54029)
+	at Object.resolveProxy (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:17332)
+	at useProxySettings (/opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:182:16)
+	at /opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:119:13
+	at /opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:681:13
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2024-12-23 22:01:31.573 [info] Extension host with pid 33535 exiting with code 0
