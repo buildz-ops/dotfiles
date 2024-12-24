@@ -1,3 +1,0 @@
-2024-12-23 18:23:25.568 [info] update#setState idle
-2024-12-23 18:23:46.576 [info] Extension host with pid 7030 exited with code: 0, signal: unknown.
-2024-12-23 18:23:46.580 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 7029]: crashed with code 15 and reason 'killed'

@@ -1,0 +1,48 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20241225_000648
+====================================================================================================
+
+5     |Info:    Found file: all-white.orp attempting to validate header
+5     |Info:    Valid v4 profile found for all-white
+1007  |Info:    ------------------------------------------------------
+1007  |Info:    |               Start device detection               |
+1007  |Info:    ------------------------------------------------------
+1008  |Info:    Initializing HID interfaces: Success
+1016  |Info:    ------------------------------------------------------
+1016  |Info:    |             Detecting I2C interfaces               |
+1016  |Info:    ------------------------------------------------------
+1016  |Info:    Registering I2C interface: /dev/i2c-1 Device 1022:790B Subsystem: 1043:87C0
+1016  |Info:    Registering I2C interface: /dev/i2c-2 Device 1022:790B Subsystem: 1043:87C0
+1016  |Info:    Registering I2C interface: /dev/i2c-0 Device 1022:790B Subsystem: 1043:87C0
+1016  |Info:    ------------------------------------------------------
+1016  |Info:    |               Detecting I2C devices                |
+1016  |Info:    ------------------------------------------------------
+2119  |Info:    [Corsair Dominator Platinum] Registering RGB controller
+2131  |Info:    [Corsair Dominator Platinum] Registering RGB controller
+2276  |Info:    ------------------------------------------------------
+2276  |Info:    |               Detecting I2C PCI devices            |
+2276  |Info:    ------------------------------------------------------
+2277  |Info:    ------------------------------------------------------
+2277  |Info:    |               Detecting HID devices                |
+2277  |Info:    ------------------------------------------------------
+3685  |Info:    [NZXT Kraken X3 Series] Registering RGB controller
+3763  |Info:    [ASUS TUF GAMING X570-PLUS (WI-FI)] Registering RGB controller
+3794  |Info:    [KLM] Created new Tenkeyless ISO QWERTY with 6 rows and 17 columns containing 88 keys
+3794  |Info:    [Razer Huntsman Tournament Edition] Registering RGB controller
+3848  |Info:    [Logitech G915 Wireless RGB Mechanical Gaming Keyboard] Registering RGB controller
+3848  |Info:    ------------------------------------------------------
+3848  |Info:    |            Detecting libusb HID devices            |
+3848  |Info:    ------------------------------------------------------
+4069  |Info:    ------------------------------------------------------
+4069  |Info:    |              Detecting other devices               |
+4069  |Info:    ------------------------------------------------------
+4076  |Info:    ------------------------------------------------------
+4076  |Info:    |                Detection completed                 |
+4076  |Info:    ------------------------------------------------------
+4076  |Info:    Profile loading: Succeeded for Corsair Dominator Platinum @ I2C: /dev/i2c-0, address 0x5A
+4076  |Info:    Profile loading: Succeeded for Corsair Dominator Platinum @ I2C: /dev/i2c-0, address 0x5B
+4076  |Info:    Profile loading: Succeeded for NZXT Kraken X3 Series @ HID: /dev/hidraw0
+4076  |Info:    Profile loading: Succeeded for ASUS TUF GAMING X570-PLUS (WI-FI) @ HID: /dev/hidraw2
+4076  |Info:    Profile loading: Succeeded for Razer Huntsman Tournament Edition @ HID: /dev/hidraw6
+4076  |Info:    Profile loading: Succeeded for Logitech G915 Wireless RGB Mechanical Gaming Keyboard @ 

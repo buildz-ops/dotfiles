@@ -1776,23 +1776,23 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#1a1e25",
+    "themeBackground": "#11161e",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "rgba(223, 225, 228, 0.6)",
-            "background": "#1a1e25",
-            "editorBackground": "#1a1e25",
-            "titleBarBackground": "#1a1e25",
-            "titleBarBorder": "#1a1e25",
-            "activityBarBackground": "#1a1e25",
-            "activityBarBorder": "#1a1e25",
-            "sideBarBackground": "#1a1e25",
-            "sideBarBorder": "#1a1e25",
-            "statusBarBackground": "#1a1e25",
-            "statusBarBorder": "#1a1e25",
-            "statusBarNoFolderBackground": "#1f242c"
+            "foreground": "rgba(223, 225, 230, 0.6)",
+            "background": "#11161e",
+            "editorBackground": "#11161e",
+            "titleBarBackground": "#11161e",
+            "titleBarBorder": "#11161e",
+            "activityBarBackground": "#11161e",
+            "activityBarBorder": "#11161e",
+            "sideBarBackground": "#11161e",
+            "sideBarBorder": "#11161e",
+            "statusBarBackground": "#11161e",
+            "statusBarBorder": "#11161e",
+            "statusBarNoFolderBackground": "#141a24"
         },
         "layoutInfo": {
             "sideBarSide": "right",

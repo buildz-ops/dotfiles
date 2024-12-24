@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ayoub/Pictures/wallpapers/ign_groot.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1a1e25",
+        "foreground": "#ccbdcd",
+        "cursor": "#ccbdcd"
+    },
+    "colors": {
+        "color0": "#1a1e25",
+        "color1": "#577092",
+        "color2": "#5F7AA0",
+        "color3": "#917690",
+        "color4": "#7587AE",
+        "color5": "#6B94AF",
+        "color6": "#7AACC5",
+        "color7": "#ccbdcd",
+        "color8": "#8e848f",
+        "color9": "#577092",
+        "color10": "#5F7AA0",
+        "color11": "#917690",
+        "color12": "#7587AE",
+        "color13": "#6B94AF",
+        "color14": "#7AACC5",
+        "color15": "#ccbdcd"
+    }
+}
