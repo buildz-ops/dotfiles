@@ -84,5 +84,9 @@ function pipes
     pipes.sh -f 100 -t 3
 end
 
+function clock
+    clock-rs -c green
+end
+
 fish_add_path /home/ayoub/.spicetify
 fish_add_path /home/ayoub/.cargo/bin
