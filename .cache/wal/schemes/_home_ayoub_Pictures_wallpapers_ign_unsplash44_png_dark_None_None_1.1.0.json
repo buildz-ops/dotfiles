@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ayoub/Pictures/wallpapers/ign_unsplash44.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1b1e25",
+        "foreground": "#afb8c3",
+        "cursor": "#afb8c3"
+    },
+    "colors": {
+        "color0": "#1b1e25",
+        "color1": "#4B5063",
+        "color2": "#4B566B",
+        "color3": "#566277",
+        "color4": "#606B7E",
+        "color5": "#5C6882",
+        "color6": "#636F86",
+        "color7": "#afb8c3",
+        "color8": "#7a8088",
+        "color9": "#4B5063",
+        "color10": "#4B566B",
+        "color11": "#566277",
+        "color12": "#606B7E",
+        "color13": "#5C6882",
+        "color14": "#636F86",
+        "color15": "#afb8c3"
+    }
+}

@@ -70,8 +70,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -89,6 +88,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/ayoub/Downloads/exercicis_inicials.ipynb",
+                                        "path": "/home/ayoub/Downloads/exercicis_inicials.ipynb",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads/exercicis_inicials.ipynb"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -155,17 +165,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/waybar/style.css"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/ayoub/Downloads/exercicis_inicials.ipynb",
-                                        "path": "/home/ayoub/Downloads/exercicis_inicials.ipynb",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Downloads/exercicis_inicials.ipynb"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -760,13 +759,6 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "workbench.action.splitEditorInGroup",
-                                    "label": "Split in &&Group"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
                                     "id": "workbench.action.moveEditorToNewWindow",
                                     "label": "&&Move Editor into New Window"
                                 },
@@ -841,6 +833,10 @@
                     {
                         "id": "workbench.view.extensions",
                         "label": "E&&xtensions"
+                    },
+                    {
+                        "id": "workbench.view.extension.test",
+                        "label": "T&&esting"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1776,23 +1772,23 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#11161e",
+    "themeBackground": "#1b1e25",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "rgba(223, 225, 230, 0.6)",
-            "background": "#11161e",
-            "editorBackground": "#11161e",
-            "titleBarBackground": "#11161e",
-            "titleBarBorder": "#11161e",
-            "activityBarBackground": "#11161e",
-            "activityBarBorder": "#11161e",
-            "sideBarBackground": "#11161e",
-            "sideBarBorder": "#11161e",
-            "statusBarBackground": "#11161e",
-            "statusBarBorder": "#11161e",
-            "statusBarNoFolderBackground": "#141a24"
+            "foreground": "rgba(175, 184, 195, 0.6)",
+            "background": "#1b1e25",
+            "editorBackground": "#1b1e25",
+            "titleBarBackground": "#1b1e25",
+            "titleBarBorder": "#1b1e25",
+            "activityBarBackground": "#1b1e25",
+            "activityBarBorder": "#1b1e25",
+            "sideBarBackground": "#1b1e25",
+            "sideBarBorder": "#1b1e25",
+            "statusBarBackground": "#1b1e25",
+            "statusBarBorder": "#1b1e25",
+            "statusBarNoFolderBackground": "#20242c"
         },
         "layoutInfo": {
             "sideBarSide": "right",
@@ -1813,7 +1809,7 @@
             "backupPath": "/home/ayoub/.config/Code/Backups/07d70a362de9f81db2df8ad05c76ebbb",
             "uiState": {
                 "mode": 1,
-                "x": 8,
+                "x": 1928,
                 "y": 51,
                 "width": 1904,
                 "height": 1021
